@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
-    baseURL: '/demo-stack-modal/'
+    baseURL: '/demo-stack-modal/',
   },
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
@@ -10,5 +10,5 @@ export default defineNuxtConfig({
   ssr: false,
   nitro: {
     preset: 'static'
-  }
+  },
 })
