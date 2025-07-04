@@ -7,5 +7,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/ui', '@nuxt/test-utils', '@nuxt/eslint'],
   css: ['~/assets/css/main.css'],
-  ssr: false
+  ssr: false,
+  nitro: {
+    preset: 'static'
+  }
 })
