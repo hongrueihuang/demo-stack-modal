@@ -1,6 +1,11 @@
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+  <UApp>
+    <NuxtPage />
+  </UApp>
 </template>
+
+<style>
+.modal-open {
+  overflow: hidden;
+}
+</style>
